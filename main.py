@@ -104,7 +104,6 @@ class ZoologicoCLI:
 
 
 db = Database(database="av1", collection="Animais")
-db.resetDatabase()
 
 z1 = ZoologicoCLI(db)
 habitats = []
