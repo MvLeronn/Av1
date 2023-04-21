@@ -22,10 +22,3 @@ class Database:
             print("Database connected successfully!")
         except Exception as e:
             print(e)
-
-    def resetDatabase(self):
-        try:
-            self.db.drop_database(self.database)
-            print("Database deleted successfully!")
-        except Exception as e:
-            print(e)
